@@ -1,13 +1,4 @@
 # nlf_cli
-Simple framework based on core symfony components for any production ready CLI application
-
-Utilizing such concepts as (all based on symfony components):
-- CLI user interface
-- Dependency container
-- YAML configuration
-- Env processor
-
-All commands placed in `src/UI` are automatically registered in the application
 
 ```bash
 .
@@ -30,3 +21,13 @@ All commands placed in `src/UI` are automatically registered in the application
     └── UI
         └── HelloWorldCommand.php
 ```
+
+Simple framework based on core symfony components for any production ready CLI application
+
+Utilizing such concepts as (all based on symfony components):
+- CLI user interface
+- Dependency container
+- YAML configuration
+- Env processor
+
+All commands placed in `src/UI` are automatically registered in the application
