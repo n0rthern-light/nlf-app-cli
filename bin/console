@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-use Kernel\ConsoleKernel;
+use Nlf\Component\Kernel\ConsoleKernel;
 
 require_once \dirname(__FILE__, 2) . '/vendor/autoload.php';
 

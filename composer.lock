@@ -4,8 +4,76 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93a2026996a53b58003be00e84a27fec",
+    "content-hash": "3cb7903178757ae4376ac40346e84c38",
     "packages": [
+        {
+            "name": "nlf/kernel-cli",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/n0rthern-light/nlf-component-kernel-cli.git",
+                "reference": "f570830e74280f8ac98ff99739a12229a47decb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/n0rthern-light/nlf-component-kernel-cli/zipball/f570830e74280f8ac98ff99739a12229a47decb0",
+                "reference": "f570830e74280f8ac98ff99739a12229a47decb0",
+                "shasum": ""
+            },
+            "require": {
+                "nlf/kernel-interface": "^0.1.1",
+                "symfony/config": "^6.0",
+                "symfony/console": "^6.0",
+                "symfony/dependency-injection": "^6.0",
+                "symfony/dotenv": "^6.0",
+                "symfony/yaml": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nlf\\Component\\Kernel\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "An kernel implementation utilizing symfony CLI components",
+            "support": {
+                "source": "https://github.com/n0rthern-light/nlf-component-kernel-cli/tree/0.1.0",
+                "issues": "https://github.com/n0rthern-light/nlf-component-kernel-cli/issues"
+            },
+            "time": "2022-04-09T17:49:42+00:00"
+        },
+        {
+            "name": "nlf/kernel-interface",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/n0rthern-light/nlf-component-kernel-interface.git",
+                "reference": "caf6c020e4eca7f28269aa40a6c8ba1a6001ccb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/n0rthern-light/nlf-component-kernel-interface/zipball/caf6c020e4eca7f28269aa40a6c8ba1a6001ccb0",
+                "reference": "caf6c020e4eca7f28269aa40a6c8ba1a6001ccb0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nlf\\Component\\Kernel\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A shared kernel application interface",
+            "support": {
+                "source": "https://github.com/n0rthern-light/nlf-component-kernel-interface/tree/0.1.1",
+                "issues": "https://github.com/n0rthern-light/nlf-component-kernel-interface/issues"
+            },
+            "time": "2022-04-09T17:39:12+00:00"
+        },
         {
             "name": "psr/container",
             "version": "2.0.2",
