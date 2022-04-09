@@ -1,0 +1,2 @@
+parameters:
+  appName: '%env(APP_NAME)%'

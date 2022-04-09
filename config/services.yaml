@@ -1,0 +1,15 @@
+imports:
+  - {resource: 'parameters.yaml'}
+  - {resource: 'bindings.yaml'}
+  - {resource: 'cli-commands.yaml'}
+
+services:
+  _defaults:
+    autowire: false
+    autoconfigure: false
+    public: false
+
+  service.impl:
+    class: App\Application\ImplService
+    arguments:
+      $envVar: '%appName%'

@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+use Kernel\ConsoleKernel;
+
+require_once \dirname(__FILE__, 2) . '/vendor/autoload.php';
+
+$kernel = new ConsoleKernel(
+    [\dirname(__FILE__, 2) . '/.env'],
+    [\dirname(__FILE__, 2) . '/config/services.yaml'],
+    'ui.command'
+);
+
+$kernel->boot();

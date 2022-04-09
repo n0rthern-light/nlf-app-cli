@@ -1,0 +1,2 @@
+services:
+  App\Application\ServiceInterface: '@service.impl'

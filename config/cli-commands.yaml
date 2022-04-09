@@ -1,0 +1,8 @@
+services:
+  App\UI\:
+    public: true
+    autowire: true
+    autoconfigure: true
+
+    resource: ../src/UI/*
+    tags: ['ui.command']
