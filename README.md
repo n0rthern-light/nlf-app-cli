@@ -1,4 +1,4 @@
-# nlf_cli
+# nlf-cli
 
 ```bash
 .
