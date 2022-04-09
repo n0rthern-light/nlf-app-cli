@@ -13,6 +13,7 @@ class ImplService implements ServiceInterface
 
     public function think(): void
     {
-        echo self::class . ' -> ' . $this->envVar; die;
+        echo self::class . ' -> ' . $this->envVar;
+        die;
     }
 }
