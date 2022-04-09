@@ -28,5 +28,6 @@ Utilizing such concepts as (all based on symfony components):
 - Dependency container
 - YAML configuration
 - Env processor
+- Code quality tools
 
 All commands placed in `src/UI` are automatically registered for the `bin/console` usage
