@@ -10,12 +10,16 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "nlf/kernel-cli": "^0.1.0"
+        "nlf/kernel-cli": "^0.1.1"
     },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/n0rthern-light/nlf-component-kernel-interface"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/n0rthern-light/nlf-component-kernel-core"
         },
         {
             "type": "vcs",
