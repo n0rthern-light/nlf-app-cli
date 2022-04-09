@@ -12,9 +12,7 @@
 │   ├── cli-commands.yaml
 │   ├── parameters.yaml
 │   └── services.yaml
-├── kernel
-│   ├── ConsoleKernel.php
-│   └── KernelInterface.php
+├── README.md
 └── src
     ├── Application
     │   ├── ImplService.php
