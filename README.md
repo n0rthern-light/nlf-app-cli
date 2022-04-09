@@ -6,6 +6,7 @@
 │   └── console
 ├── composer.json
 ├── composer.lock
+├── .env.example
 ├── config
 │   ├── bindings.yaml
 │   ├── cli-commands.yaml
