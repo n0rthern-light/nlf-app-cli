@@ -31,4 +31,4 @@ Utilizing such concepts as (all based on symfony components):
 - YAML configuration
 - Env processor
 
-All commands placed in `src/UI` are automatically registered in the `bin/console` usage
+All commands placed in `src/UI` are automatically registered for the `bin/console` usage
