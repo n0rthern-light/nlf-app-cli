@@ -21,7 +21,7 @@
         └── HelloWorldCommand.php
 ```
 
-Simple framework based on core symfony components for any production ready CLI application
+Template console application based on core symfony components, ready for production usage.
 
 Utilizing such concepts as (all based on symfony components):
 - CLI user interface
